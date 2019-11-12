@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+}
+
+.principal {
+	background: #212121;
+	width: 980px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.contenido {
+	background: #f5f5f5;
+	width: 720px;
+	padding: 20px;
+}
+
+.contenido > header {
+	padding: 5px 20px;
+	border-bottom: 1px solid #212121;
+}
+
+.contenido > figure {
+	background: blue;
+	margin: 20px auto;
+	align-items: center;
+}
+
+.contenido > figure > img {
+	max-width: 620px;
+	max-height: 300px;  	
+}
+
+.contenido > 
+
+

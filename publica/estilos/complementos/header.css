@@ -1,0 +1,41 @@
+.cabecera {
+	background: #fff;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.cabecera * {
+	max-height: 58.5px;
+}
+
+.cintillo {
+	background: #fff;
+	display: flex;
+	margin: 5px 0;
+}
+
+.membrete {
+	width: 100%;
+}
+
+.logo {
+	width: 22%;
+	display: flex;
+}
+
+.logo > p {
+	margin-right: 5px;
+	position: relative;
+	top: 15px;
+	text-align: right;
+	font-weight: bold;
+  	font-size: small;  	
+}
+
+.titulo {
+	background: #a52a2a;
+	padding: 8px 5px;
+	text-align: center;
+	font-family: andalus;
+	color: #fff;
+}

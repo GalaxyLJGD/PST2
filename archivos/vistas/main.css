@@ -1,0 +1,139 @@
+html{
+	font-size: 16px;
+	font-family:'Baskerville Old Face', sans-serif;
+
+}
+body{
+	background-color: #FFFAFA;
+}
+
+.container{
+	max-width: 900px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 4% auto;
+	padding-bottom: 1rem;
+}
+
+.form_top{
+	width: 100%;
+	text-align: center;
+
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #4C9ED9;
+	
+}
+
+.form_top h2{
+	font-weight: bold;
+	color: black;
+	font-size: 24px;
+}
+
+
+.form_reg{
+	padding: 0 2rem;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.btn_form{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+
+}
+
+.input, .btn_submit, .btn_reset{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .5s;
+}
+
+.input:focus{
+	border-bottom: solid #F39B53 .2rem;
+}
+
+.btn_submit, .btn_reset{
+	width: 40%;
+	border-bottom: none;
+	background-color: #A52A2A;
+	color: white;
+}
+
+.btn_reset{
+	background-color: #A52A2A;
+}
+
+.btn_submit:hover{
+	background-color: #4C9ED9;
+
+}
+
+.btn_reset:hover{
+	background-color: #4C9ED9;
+
+}
+
+
+/* Imágenes del cintillo */
+#headimg {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#headimg * {
+  max-height: 50px;
+  align-items: center;
+}
+
+#loga {
+  display: flex;
+}
+
+/* Div global */
+#global {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0;
+  width: 960px;
+}
+
+/* Títulos en la cabecera */
+#title {
+  background-color: #A52A2A;
+  border-radius: 3px;
+  clear: both;
+  color: white;
+  display: block;
+  margin: 5px 0px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+/* Pie de página */
+#footing {
+
+  border-radius: 3px;
+  color: white;
+  clear: both;
+  font-size: 9pt;
+  margin: 5px;
+  padding: 3px;
+
+  text-align: center;
+   background-color: #A52A2A;
+}
+
+#footing p {
+  margin: 3px auto;
+}
+

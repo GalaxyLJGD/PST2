@@ -1,0 +1,28 @@
+.pie_pagina {
+	background: #a52a2a;
+	width: 980px;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.pie_pagina > p {
+	margin-bottom: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+.pie_pagina > div {
+	width: 50%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.pie_pagina > div > p {
+	color: #fff;
+}
+
+.pie_pagina > div > p > a {
+	text-decoration: none;
+	color: #212121;
+}
